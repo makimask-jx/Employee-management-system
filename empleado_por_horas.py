@@ -17,6 +17,8 @@ class EmpleadoPorHoras(Empleado):
         return self.horas_trabajadas * self.tarifa_por_hora
 
     def mostrar_informacion(self) -> None:
-        print(
-            f"Nombre: {self.nombre}, salario mensual: {self.calcular_salario_mensual()}"
-        )
+        print(f"Nombre: {self.nombre}")
+        print("Tipo: Por Horas")
+        print(f"Horas trabajadas: {self.horas_trabajadas}")
+        print(f"Tarifa por hora: {self.tarifa_por_hora}")
+        print(f"Salario mensual: {self.calcular_salario_mensual()}")

@@ -10,5 +10,5 @@ class EmpleadoTiempoCompleto(Empleado):
 
     def mostrar_informacion(self) -> None:
         print(
-            f"Nombre: {self.nombre}, salario mensual: {self.calcular_salario_mensual()}"
+            f"Nombre: {self.nombre}\nTipo: Tiempo Completo\nSalario Mensual: {self.calcular_salario_mensual()}"
         )

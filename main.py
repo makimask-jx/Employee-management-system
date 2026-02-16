@@ -13,9 +13,9 @@ def simulacion_empresa() -> None:
     pero por simplicidad lo dejaremos con prints de forma manual
     """
 
-    print(f"Información de: {empleado_1.nombre}:\n {empleado_1.mostrar_informacion()}")
-    print(f"Información de: {empleado_2.nombre}:\n {empleado_2.mostrar_informacion()}")
-    print(f"Información de: {empleado_3.nombre}:\n {empleado_3.mostrar_informacion()}")
+    print(f"{empleado_1.mostrar_informacion()}")
+    print(f"{empleado_2.mostrar_informacion()}")
+    print(f"{empleado_3.mostrar_informacion()}")
 
 
 if __name__ == "__main__":

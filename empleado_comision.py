@@ -20,6 +20,8 @@ class EmpleadoComision(Empleado):
         return salario_mensual
 
     def mostrar_informacion(self) -> None:
-        print(
-            f"Nombre: {self.nombre}, salario mensual: {self.calcular_salario_mensual()}"
-        )
+        print(f"Nombre: {self.nombre}")
+        print("Tipo: Comisionista")
+        print(f"Ventas realizadas: {self.ventas_realizadas}")
+        print(f"Salario base: {self.salario_base}")
+        print(f"Salario mensual: {self.calcular_salario_mensual()}")
