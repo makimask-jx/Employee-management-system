@@ -11,5 +11,5 @@ class Empleado(ABC):
         pass
 
     @abstractmethod
-    def mostrar_informacion(self):
+    def mostrar_informacion(self) -> None:
         pass
