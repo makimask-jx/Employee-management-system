@@ -1,7 +1,7 @@
-from abc import ABC, abstractmethod
+from abc import abstractmethod, ABCMeta
 
 
-class Empleado(ABC):
+class Empleado(metaclass=ABCMeta):
     def __init__(self, nombre: str, salario_base: float) -> None:
         self.nombre = nombre
         self.salario_base = salario_base
