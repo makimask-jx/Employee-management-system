@@ -25,3 +25,4 @@ class EmpleadoComision(Empleado):
         print(f"Ventas realizadas: {self.ventas_realizadas}")
         print(f"Salario base: {self.salario_base}")
         print(f"Salario mensual: {self.calcular_salario_mensual()}")
+        print("-------------------")

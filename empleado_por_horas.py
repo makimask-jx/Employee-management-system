@@ -22,3 +22,4 @@ class EmpleadoPorHoras(Empleado):
         print(f"Horas trabajadas: {self.horas_trabajadas}")
         print(f"Tarifa por hora: {self.tarifa_por_hora}")
         print(f"Salario mensual: {self.calcular_salario_mensual()}")
+        print("-------------------")

@@ -12,3 +12,4 @@ class EmpleadoTiempoCompleto(Empleado):
         print(
             f"Nombre: {self.nombre}\nTipo: Tiempo Completo\nSalario Mensual: {self.calcular_salario_mensual()}"
         )
+        print("-------------------")
